@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qXy-Wm-qXw">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qXy-Wm-qXw">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Main Drawing TableVC - Drawing-->
+        <!--Drawing-->
         <scene sceneID="gw4-sy-gdt">
             <objects>
                 <tableViewController storyboardIdentifier="MainDrawing" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ouV-Ww-j78" customClass="MainDrawingTableVC" sceneMemberID="viewController">
@@ -431,7 +431,6 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bY-yA-xKV">
                                 <rect key="frame" x="67" y="518" width="53" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Original">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -441,7 +440,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LV-mg-61j">
                                 <rect key="frame" x="180" y="518" width="74" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Apply filter">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -450,20 +448,18 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J1y-bQ-xhD">
-                                <rect key="frame" x="20" y="-84" width="280" height="0.0"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" id="Dnd-z7-i8I"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="184" width="280" height="200"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4LV-mg-61j" firstAttribute="leading" secondItem="8bY-yA-xKV" secondAttribute="trailing" constant="60" id="8QX-3y-c3i"/>
+                            <constraint firstItem="J1y-bQ-xhD" firstAttribute="top" secondItem="Mzz-HL-kd9" secondAttribute="bottom" constant="120" id="DFk-jG-uV4"/>
+                            <constraint firstAttribute="centerY" secondItem="J1y-bQ-xhD" secondAttribute="centerY" id="KUd-VY-jBr"/>
                             <constraint firstAttribute="trailing" secondItem="J1y-bQ-xhD" secondAttribute="trailing" constant="20" symbolic="YES" id="Rkl-tI-vpX"/>
+                            <constraint firstAttribute="centerX" secondItem="J1y-bQ-xhD" secondAttribute="centerX" id="U9o-VD-lLn"/>
                             <constraint firstItem="8bY-yA-xKV" firstAttribute="baseline" secondItem="4LV-mg-61j" secondAttribute="baseline" id="XcT-wv-o5u"/>
                             <constraint firstAttribute="bottom" secondItem="8bY-yA-xKV" secondAttribute="bottom" constant="20" symbolic="YES" id="Yj3-wv-Gbt"/>
-                            <constraint firstItem="J1y-bQ-xhD" firstAttribute="top" secondItem="Mzz-HL-kd9" secondAttribute="bottom" constant="-148" id="bsU-My-bfc"/>
                             <constraint firstItem="J1y-bQ-xhD" firstAttribute="leading" secondItem="y26-xf-qgM" secondAttribute="leading" constant="20" symbolic="YES" id="qhm-Zw-AHQ"/>
                             <constraint firstItem="8bY-yA-xKV" firstAttribute="leading" secondItem="y26-xf-qgM" secondAttribute="leading" constant="67" id="zaN-Ji-8aB"/>
                         </constraints>
@@ -476,7 +472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jey-Kq-3Ds" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1302" y="456"/>
+            <point key="canvasLocation" x="1296" y="460"/>
         </scene>
         <!--Blur ExampleVC-->
         <scene sceneID="G0l-De-qBV">
@@ -656,7 +652,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WDB-E4-FcD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-899" y="99"/>
+            <point key="canvasLocation" x="-953" y="-117"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

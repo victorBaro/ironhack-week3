@@ -11,7 +11,7 @@
 @implementation ClockLayer
 
 + (id)layer {
-    ClockLayer *mainLayer = [ClockLayer layer];
+    CAShapeLayer *mainLayer = [CAShapeLayer layer];
     mainLayer.bounds = CGRectMake(0, 0, 200, 200);
     UIBezierPath *path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 0, 200, 200)];
     mainLayer.path = path.CGPath;

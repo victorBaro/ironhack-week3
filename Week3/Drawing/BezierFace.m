@@ -24,7 +24,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        self.backgroundColor = [UIColor whiteColor];
+        self.backgroundColor = [UIColor flatCloudsColor];
         
         //Set initial values for 'moving' points
         _midMouth = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame) + 100);
@@ -43,7 +43,7 @@
     UITouch *touch = [touches anyObject];
     CGPoint currentTouch = [touch locationInView:self];
     CGFloat amount = currentTouch.y - _prevTouch.y;
-    if ((_midMouth.y + amount <= 400)&&(_midMouth.y + amount >= 250)) {
+    if ((_midMouth.y + amount <= 500)&&(_midMouth.y + amount >= 250)) {
         //Change moving points
         _midMouth = CGPointMake(_midMouth.x, _midMouth.y + amount);
         _leftEyeBrowMov = CGPointMake(_leftEyeBrowMov.x, _leftEyeBrowMov.y - (amount * 0.2));
@@ -116,8 +116,8 @@
     
     
     // Draw the complete path
-    [[UIColor blueColor] setStroke];
-    bezierPath.lineWidth = 2;
+    [[UIColor flatMidnightBlueColor] setStroke];
+    bezierPath.lineWidth = 3;
     [bezierPath stroke];
 }
 
