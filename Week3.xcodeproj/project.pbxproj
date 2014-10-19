@@ -17,6 +17,9 @@
 		C731A595194C66ED00DCD6F3 /* MainLayersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58A194C66ED00DCD6F3 /* MainLayersTableVC.m */; };
 		C731A596194C66ED00DCD6F3 /* SignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58C194C66ED00DCD6F3 /* SignalView.m */; };
 		C731A597194C66ED00DCD6F3 /* GenericLayersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58E194C66ED00DCD6F3 /* GenericLayersVC.m */; };
+		C79C85E319F41BCE0086D14B /* HexagonsBCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79C85E219F41BCE0086D14B /* HexagonsBCNViewController.m */; };
+		C79C85E719F41BEF0086D14B /* RoundedHexagonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C79C85E619F41BEF0086D14B /* RoundedHexagonImage.m */; };
+		C79C85E919F41C790086D14B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79C85E819F41C790086D14B /* Launch Screen.xib */; };
 		C7B6CD62194C32830084968B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6CD61194C32830084968B /* Foundation.framework */; };
 		C7B6CD64194C32830084968B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6CD63194C32830084968B /* CoreGraphics.framework */; };
 		C7B6CD66194C32830084968B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B6CD65194C32830084968B /* UIKit.framework */; };
@@ -63,7 +66,7 @@
 
 /* Begin PBXFileReference section */
 		1F9A0DCC0E8E43A3881D1A80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F9E175B450940BB8C882FE8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		BAC4234E59DDE40BF4DDB60C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		C731A57E194C66ED00DCD6F3 /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrow.h; sourceTree = "<group>"; };
 		C731A57F194C66ED00DCD6F3 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arrow.m; sourceTree = "<group>"; };
 		C731A580194C66ED00DCD6F3 /* CAScrollLayerExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerExampleVC.h; sourceTree = "<group>"; };
@@ -81,6 +84,11 @@
 		C731A58C194C66ED00DCD6F3 /* SignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalView.m; sourceTree = "<group>"; };
 		C731A58D194C66ED00DCD6F3 /* GenericLayersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericLayersVC.h; sourceTree = "<group>"; };
 		C731A58E194C66ED00DCD6F3 /* GenericLayersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericLayersVC.m; sourceTree = "<group>"; };
+		C79C85E119F41BCE0086D14B /* HexagonsBCNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonsBCNViewController.h; sourceTree = "<group>"; };
+		C79C85E219F41BCE0086D14B /* HexagonsBCNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonsBCNViewController.m; sourceTree = "<group>"; };
+		C79C85E519F41BEF0086D14B /* RoundedHexagonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedHexagonImage.h; sourceTree = "<group>"; };
+		C79C85E619F41BEF0086D14B /* RoundedHexagonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedHexagonImage.m; sourceTree = "<group>"; };
+		C79C85E819F41C790086D14B /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		C7B6CD5E194C32830084968B /* Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B6CD61194C32830084968B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C7B6CD63194C32830084968B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -134,6 +142,7 @@
 		C7C38866194D926500B32603 /* HexagonsDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonsDrawingView.m; sourceTree = "<group>"; };
 		C7C38868194D9C1300B32603 /* HexagonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonButton.h; sourceTree = "<group>"; };
 		C7C38869194D9C1300B32603 /* HexagonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonButton.m; sourceTree = "<group>"; };
+		F0F325CB6B05DBF3C03A5895 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +170,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47E392A9216B6B4AD62749B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAC4234E59DDE40BF4DDB60C /* Pods.debug.xcconfig */,
+				F0F325CB6B05DBF3C03A5895 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C731A57D194C66ED00DCD6F3 /* Layers */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +194,17 @@
 			path = Layers;
 			sourceTree = "<group>";
 		};
+		C79C85E419F41BDB0086D14B /* Barcelona initial screen */ = {
+			isa = PBXGroup;
+			children = (
+				C79C85E119F41BCE0086D14B /* HexagonsBCNViewController.h */,
+				C79C85E219F41BCE0086D14B /* HexagonsBCNViewController.m */,
+				C79C85E519F41BEF0086D14B /* RoundedHexagonImage.h */,
+				C79C85E619F41BEF0086D14B /* RoundedHexagonImage.m */,
+			);
+			name = "Barcelona initial screen";
+			sourceTree = "<group>";
+		};
 		C7B6CD55194C32830084968B = {
 			isa = PBXGroup;
 			children = (
@@ -183,7 +212,7 @@
 				C7B6CD86194C32830084968B /* Week3Tests */,
 				C7B6CD60194C32830084968B /* Frameworks */,
 				C7B6CD5F194C32830084968B /* Products */,
-				4F9E175B450940BB8C882FE8 /* Pods.xcconfig */,
+				47E392A9216B6B4AD62749B3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,12 +243,9 @@
 				C7B6CD70194C32830084968B /* AppDelegate.h */,
 				C7B6CD71194C32830084968B /* AppDelegate.m */,
 				C7B6CD73194C32830084968B /* Main.storyboard */,
-				C7B6CD76194C32830084968B /* ViewController.h */,
-				C7B6CD77194C32830084968B /* ViewController.m */,
-				C7C38865194D926500B32603 /* HexagonsDrawingView.h */,
-				C7C38866194D926500B32603 /* HexagonsDrawingView.m */,
-				C7C38868194D9C1300B32603 /* HexagonButton.h */,
-				C7C38869194D9C1300B32603 /* HexagonButton.m */,
+				C79C85E819F41C790086D14B /* Launch Screen.xib */,
+				C79C85E419F41BDB0086D14B /* Barcelona initial screen */,
+				C7E3739B19F41AD700657515 /* Madrid initial screen */,
 				C7B6CDDE194C3A720084968B /* View management */,
 				C7B6CDC0194C353B0084968B /* Drawing */,
 				C731A57D194C66ED00DCD6F3 /* Layers */,
@@ -319,6 +345,19 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		C7E3739B19F41AD700657515 /* Madrid initial screen */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6CD76194C32830084968B /* ViewController.h */,
+				C7B6CD77194C32830084968B /* ViewController.m */,
+				C7C38865194D926500B32603 /* HexagonsDrawingView.h */,
+				C7C38866194D926500B32603 /* HexagonsDrawingView.m */,
+				C7C38868194D9C1300B32603 /* HexagonButton.h */,
+				C7C38869194D9C1300B32603 /* HexagonButton.m */,
+			);
+			name = "Madrid initial screen";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -402,6 +441,7 @@
 				C7B6CDEC194C3A720084968B /* ViewManagement.storyboard in Resources */,
 				C7B6CDDC194C36210084968B /* Drawing.storyboard in Resources */,
 				C7B6CD6C194C32830084968B /* InfoPlist.strings in Resources */,
+				C79C85E919F41C790086D14B /* Launch Screen.xib in Resources */,
 				C7B6CD75194C32830084968B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -429,7 +469,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4E4552C04EC4401AFA007B8 /* Check Pods Manifest.lock */ = {
@@ -472,6 +512,7 @@
 				C731A593194C66ED00DCD6F3 /* ClockView.m in Sources */,
 				C731A58F194C66ED00DCD6F3 /* Arrow.m in Sources */,
 				C7B6CDEF194C3A720084968B /* GenericViewManagementVC.m in Sources */,
+				C79C85E719F41BEF0086D14B /* RoundedHexagonImage.m in Sources */,
 				C7B6CDD6194C353B0084968B /* MainDrawingTableVC.m in Sources */,
 				C731A597194C66ED00DCD6F3 /* GenericLayersVC.m in Sources */,
 				C7B6CDD4194C353B0084968B /* FiltersVC.m in Sources */,
@@ -479,6 +520,7 @@
 				C7C38867194D926500B32603 /* HexagonsDrawingView.m in Sources */,
 				C731A592194C66ED00DCD6F3 /* ClockLayer.m in Sources */,
 				C7B6CDD5194C353B0084968B /* GenericDrawingVC.m in Sources */,
+				C79C85E319F41BCE0086D14B /* HexagonsBCNViewController.m in Sources */,
 				C7B6CDED194C3A720084968B /* MultipleTouchView.m in Sources */,
 				C7B6CDEB194C3A720084968B /* MainViewManagementTableVC.m in Sources */,
 			);
@@ -602,10 +644,9 @@
 		};
 		C7B6CD91194C32830084968B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9E175B450940BB8C882FE8 /* Pods.xcconfig */;
+			baseConfigurationReference = BAC4234E59DDE40BF4DDB60C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week3/Week3-Prefix.pch";
@@ -617,10 +658,9 @@
 		};
 		C7B6CD92194C32830084968B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F9E175B450940BB8C882FE8 /* Pods.xcconfig */;
+			baseConfigurationReference = F0F325CB6B05DBF3C03A5895 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week3/Week3-Prefix.pch";

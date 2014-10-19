@@ -35,7 +35,7 @@
     }
 }
 
-- (void)hexagonPressed:(int)tag {
+- (void)hexagonPressed:(NSInteger)tag {
     [self presentNextVCFromButtonTag:tag];
     //[self animateZoomOut];
 }

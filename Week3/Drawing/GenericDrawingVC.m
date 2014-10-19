@@ -143,7 +143,7 @@
     imgView.contentMode = UIViewContentModeScaleAspectFit;
     imgView.animationImages = images;
     imgView.animationDuration = 0.4;
-    imgView.animationRepeatCount = 2;
+    imgView.animationRepeatCount = HUGE_VAL;
     [imgView startAnimating];
     
     [self.view addSubview:imgView];

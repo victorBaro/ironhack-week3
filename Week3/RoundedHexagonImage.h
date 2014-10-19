@@ -10,7 +10,7 @@
 
 @protocol HexagonDelegate <NSObject>
 
-- (void) hexagonPressed:(int)tag;
+- (void) hexagonPressed:(NSInteger)tag;
 
 @end
 

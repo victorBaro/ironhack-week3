@@ -10,29 +10,29 @@
 	<string>Week3</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>06DF917F-7F2A-48CF-BA56-3E496B4CD7C4</key>
+		<key>C00FCF846DE700B8AFA3AF009E4826CD728566F8</key>
 		<string>https://github.com/iBaro/ironhack-week3.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Week3.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>06DF917F-7F2A-48CF-BA56-3E496B4CD7C4</key>
+		<key>C00FCF846DE700B8AFA3AF009E4826CD728566F8</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/iBaro/ironhack-week3.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>06DF917F-7F2A-48CF-BA56-3E496B4CD7C4</string>
+	<string>C00FCF846DE700B8AFA3AF009E4826CD728566F8</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>06DF917F-7F2A-48CF-BA56-3E496B4CD7C4</string>
+			<string>C00FCF846DE700B8AFA3AF009E4826CD728566F8</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Week3</string>
 		</dict>

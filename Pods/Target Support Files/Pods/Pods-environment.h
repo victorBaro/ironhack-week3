@@ -6,12 +6,6 @@
 // project.
 
 
-// HexColors
-#define COCOAPODS_POD_AVAILABLE_HexColors
-#define COCOAPODS_VERSION_MAJOR_HexColors 2
-#define COCOAPODS_VERSION_MINOR_HexColors 2
-#define COCOAPODS_VERSION_PATCH_HexColors 1
-
 // UIColor+FlatColors
 #define COCOAPODS_POD_AVAILABLE_UIColor_FlatColors
 #define COCOAPODS_VERSION_MAJOR_UIColor_FlatColors 0
