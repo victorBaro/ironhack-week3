@@ -15,6 +15,16 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        self.backgroundColor = [UIColor clearColor];
+    }
+    return self;
+}
+
+- (id) initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        self.backgroundColor = [UIColor clearColor];
+        self.alpha = 0.0;
     }
     return self;
 }

@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RoundedHexagonImage : UIImageView
+@protocol HexagonDelegate <NSObject>
+
+- (void) hexagonPressed:(int)tag;
+
+@end
+
+@interface RoundedHexagonImage : UIView
+
+@property (nonatomic, strong) IBOutlet UILabel *myTitle;
+@property (nonatomic, weak) id <HexagonDelegate> delegate;
+
+- (void) animateRotationToTitleWithDelay:(CGFloat)delay;
 
 @end

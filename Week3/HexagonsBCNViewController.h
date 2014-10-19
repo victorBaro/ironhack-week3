@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RoundedHexagonImage.h"
 
-@interface HexagonsBCNViewController : UIViewController
+@interface HexagonsBCNViewController : UIViewController <HexagonDelegate>
+
+@property (strong, nonatomic) IBOutletCollection(RoundedHexagonImage) NSArray *hexagonViews;
+
+@property (weak, nonatomic) IBOutlet UIView *mainContainerView;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *leadingEdgeConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *topEdgeConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *trailEdgeConstraint;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *bottomEdgeConstraint;
+
 
 @end
