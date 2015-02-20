@@ -10,6 +10,7 @@
 
 @interface MyButton ()
 @property (nonatomic, strong) UIView *shadow;
+@property (nonatomic, strong) UILabel *buttonTitleLabel;
 @end
 
 
@@ -28,40 +29,45 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
-        _title = theTitle;
-        self.backgroundColor = fillColor;
+        _buttonTitle = theTitle;
+        _fillColor = fillColor;
+        [self setup];
+    }
+    return self;
+}
+- (id)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
         [self setup];
     }
     return self;
 }
 
+- (void)prepareForInterfaceBuilder {
+    [self setup];
+}
 
 - (void) setup {
-    
-    UILabel *buttonTitle = [[UILabel alloc]initWithFrame:CGRectInset(self.bounds, 10, 10)];
-    buttonTitle.text = self.title;
-    buttonTitle.textColor = [UIColor whiteColor];
-    buttonTitle.textAlignment = NSTextAlignmentCenter;
-    [self addSubview:buttonTitle];
+    self.backgroundColor = self.fillColor;
+    self.buttonTitleLabel = [[UILabel alloc]initWithFrame:CGRectInset(self.bounds, 10, 10)];
+    self.buttonTitleLabel.text = self.buttonTitle;
+    self.buttonTitleLabel.textColor = [UIColor blackColor];
+    self.buttonTitleLabel.textAlignment = NSTextAlignmentCenter;
+    [self addSubview:self.buttonTitleLabel];
     
     CGFloat shadowHeight = 5;
     self.shadow = [[UIView alloc]initWithFrame:CGRectMake(0,
                                                           self.bounds.size.height - shadowHeight,
-                                                          
                                                           self.bounds.size.width,
-                                                          
                                                           shadowHeight)];
     self.shadow.backgroundColor = [UIColor blackColor];
     self.shadow.alpha = 0.2;
     [self addSubview:self.shadow];
 }
 
-
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     self.shadow.frame = self.bounds;
     NSLog(@"MyButton has been touched");
-    
-    
 }
 
 - (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -70,6 +76,16 @@
                                    self.bounds.size.height - shadowHeight,
                                    self.bounds.size.width,
                                    shadowHeight);
+}
+
+#pragma mark -  setters
+- (void)setButtonTitle:(NSString *)buttonTitle {
+    _buttonTitle = buttonTitle;
+    self.buttonTitleLabel.text = buttonTitle;
+}
+- (void)setFillColor:(UIColor *)fillColor {
+    _fillColor = fillColor;
+    self.backgroundColor = fillColor;
 }
 
 /*

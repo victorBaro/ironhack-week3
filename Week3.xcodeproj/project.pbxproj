@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7EE7A04C91CB4B4A97878183 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F9A0DCC0E8E43A3881D1A80 /* libPods.a */; };
+		C712FB7819F82B8500922135 /* AnimationCurveView.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB7719F82B8500922135 /* AnimationCurveView.m */; };
+		C712FB7B19F84F2A00922135 /* ModifyCurvesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB7A19F84F2A00922135 /* ModifyCurvesViewController.m */; };
+		C712FB7E19F86FF000922135 /* VBFJumpingBalls.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB7D19F86FF000922135 /* VBFJumpingBalls.m */; };
+		C712FB8119F8706B00922135 /* LoadersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB8019F8706B00922135 /* LoadersViewController.m */; };
+		C712FB8419F8709800922135 /* MainAnimationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB8319F8709800922135 /* MainAnimationsTableViewController.m */; };
+		C712FB8719F8733100922135 /* VBFRotatingSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB8619F8733100922135 /* VBFRotatingSquare.m */; };
+		C712FB8A19F8747300922135 /* MultipleExampleAnimationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB8919F8747300922135 /* MultipleExampleAnimationsViewController.m */; };
+		C712FB8D19F8789900922135 /* TransitionViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C712FB8C19F8789900922135 /* TransitionViewsViewController.m */; };
 		C731A58F194C66ED00DCD6F3 /* Arrow.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A57F194C66ED00DCD6F3 /* Arrow.m */; };
 		C731A590194C66ED00DCD6F3 /* CAScrollLayerExampleVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A581194C66ED00DCD6F3 /* CAScrollLayerExampleVC.m */; };
 		C731A591194C66ED00DCD6F3 /* CATransformLayerExample.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A583194C66ED00DCD6F3 /* CATransformLayerExample.m */; };
@@ -17,6 +25,16 @@
 		C731A595194C66ED00DCD6F3 /* MainLayersTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58A194C66ED00DCD6F3 /* MainLayersTableVC.m */; };
 		C731A596194C66ED00DCD6F3 /* SignalView.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58C194C66ED00DCD6F3 /* SignalView.m */; };
 		C731A597194C66ED00DCD6F3 /* GenericLayersVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C731A58E194C66ED00DCD6F3 /* GenericLayersVC.m */; };
+		C751843719F5AB3000743988 /* Animations.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C751843619F5AB3000743988 /* Animations.storyboard */; };
+		C751843B19F5AD2F00743988 /* AnimationCurveExamples.m in Sources */ = {isa = PBXBuildFile; fileRef = C751843A19F5AD2F00743988 /* AnimationCurveExamples.m */; };
+		C75AB0C819F9A16400D78615 /* Transitions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C75AB0C719F9A16400D78615 /* Transitions.storyboard */; };
+		C75AB0CB19F9A2E200D78615 /* ModalTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AB0CA19F9A2E200D78615 /* ModalTransitionViewController.m */; };
+		C75AB0CE19F9A49100D78615 /* VBFTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AB0CD19F9A49100D78615 /* VBFTransitionAnimator.m */; };
+		C75AB0D119F9A6E500D78615 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C75AB0D019F9A6E500D78615 /* DetailViewController.m */; };
+		C76785D719F7048B00B5E035 /* AnimatablePropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76785D619F7048B00B5E035 /* AnimatablePropViewController.m */; };
+		C782D7391A8F89480047C4AA /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C782D7371A8F89480047C4AA /* Crashlytics.framework */; };
+		C782D73A1A8F89480047C4AA /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C782D7381A8F89480047C4AA /* Fabric.framework */; };
+		C782D73D1A9107C40047C4AA /* ScollHeaderALViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C782D73C1A9107C40047C4AA /* ScollHeaderALViewController.m */; };
 		C79C85E319F41BCE0086D14B /* HexagonsBCNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C79C85E219F41BCE0086D14B /* HexagonsBCNViewController.m */; };
 		C79C85E719F41BEF0086D14B /* RoundedHexagonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C79C85E619F41BEF0086D14B /* RoundedHexagonImage.m */; };
 		C79C85E919F41C790086D14B /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C79C85E819F41C790086D14B /* Launch Screen.xib */; };
@@ -49,9 +67,18 @@
 		C7B6CDED194C3A720084968B /* MultipleTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6CDE5194C3A720084968B /* MultipleTouchView.m */; };
 		C7B6CDEE194C3A720084968B /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6CDE7194C3A720084968B /* MyButton.m */; };
 		C7B6CDEF194C3A720084968B /* GenericViewManagementVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B6CDE9194C3A720084968B /* GenericViewManagementVC.m */; };
+		C7BA1D7C19F9ADC80030731B /* VBFInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1D7B19F9ADC80030731B /* VBFInteractiveTransition.m */; };
+		C7BA1D7F19F9AF150030731B /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1D7E19F9AF150030731B /* SideMenuViewController.m */; };
+		C7BA1D8219F9B3150030731B /* InteractiveTransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1D8119F9B3150030731B /* InteractiveTransViewController.m */; };
+		C7BA1D8519F9B7D20030731B /* TransitionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1D8419F9B7D20030731B /* TransitionsTableViewController.m */; };
+		C7BA1D8819F9BB400030731B /* VBFNavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BA1D8719F9BB400030731B /* VBFNavigationTransition.m */; };
 		C7BFA43019507CA000197851 /* bFace.m in Sources */ = {isa = PBXBuildFile; fileRef = C7BFA42F19507CA000197851 /* bFace.m */; };
 		C7C38867194D926500B32603 /* HexagonsDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C38866194D926500B32603 /* HexagonsDrawingView.m */; };
 		C7C3886A194D9C1300B32603 /* HexagonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C38869194D9C1300B32603 /* HexagonButton.m */; };
+		C7CCD7DE1A8C922900D5D62C /* VBFCountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CCD7DD1A8C922900D5D62C /* VBFCountDown.m */; };
+		C7CCD7E21A8C92B300D5D62C /* PopExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CCD7E11A8C92B300D5D62C /* PopExamplesViewController.m */; };
+		C7CCD7E81A8C97B600D5D62C /* VBFPopUpMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CCD7E71A8C97B600D5D62C /* VBFPopUpMenu.m */; };
+		C7CCD7EB1A8C97C100D5D62C /* VBFDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CCD7EA1A8C97C100D5D62C /* VBFDownloadButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +94,22 @@
 /* Begin PBXFileReference section */
 		1F9A0DCC0E8E43A3881D1A80 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC4234E59DDE40BF4DDB60C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		C712FB7619F82B8500922135 /* AnimationCurveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCurveView.h; sourceTree = "<group>"; };
+		C712FB7719F82B8500922135 /* AnimationCurveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCurveView.m; sourceTree = "<group>"; };
+		C712FB7919F84F2A00922135 /* ModifyCurvesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModifyCurvesViewController.h; sourceTree = "<group>"; };
+		C712FB7A19F84F2A00922135 /* ModifyCurvesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModifyCurvesViewController.m; sourceTree = "<group>"; };
+		C712FB7C19F86FF000922135 /* VBFJumpingBalls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFJumpingBalls.h; sourceTree = "<group>"; };
+		C712FB7D19F86FF000922135 /* VBFJumpingBalls.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFJumpingBalls.m; sourceTree = "<group>"; };
+		C712FB7F19F8706B00922135 /* LoadersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadersViewController.h; sourceTree = "<group>"; };
+		C712FB8019F8706B00922135 /* LoadersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadersViewController.m; sourceTree = "<group>"; };
+		C712FB8219F8709800922135 /* MainAnimationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainAnimationsTableViewController.h; sourceTree = "<group>"; };
+		C712FB8319F8709800922135 /* MainAnimationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainAnimationsTableViewController.m; sourceTree = "<group>"; };
+		C712FB8519F8733100922135 /* VBFRotatingSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFRotatingSquare.h; sourceTree = "<group>"; };
+		C712FB8619F8733100922135 /* VBFRotatingSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFRotatingSquare.m; sourceTree = "<group>"; };
+		C712FB8819F8747300922135 /* MultipleExampleAnimationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleExampleAnimationsViewController.h; sourceTree = "<group>"; };
+		C712FB8919F8747300922135 /* MultipleExampleAnimationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleExampleAnimationsViewController.m; sourceTree = "<group>"; };
+		C712FB8B19F8789900922135 /* TransitionViewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewsViewController.h; sourceTree = "<group>"; };
+		C712FB8C19F8789900922135 /* TransitionViewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewsViewController.m; sourceTree = "<group>"; };
 		C731A57E194C66ED00DCD6F3 /* Arrow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arrow.h; sourceTree = "<group>"; };
 		C731A57F194C66ED00DCD6F3 /* Arrow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Arrow.m; sourceTree = "<group>"; };
 		C731A580194C66ED00DCD6F3 /* CAScrollLayerExampleVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAScrollLayerExampleVC.h; sourceTree = "<group>"; };
@@ -84,6 +127,22 @@
 		C731A58C194C66ED00DCD6F3 /* SignalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignalView.m; sourceTree = "<group>"; };
 		C731A58D194C66ED00DCD6F3 /* GenericLayersVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericLayersVC.h; sourceTree = "<group>"; };
 		C731A58E194C66ED00DCD6F3 /* GenericLayersVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericLayersVC.m; sourceTree = "<group>"; };
+		C751843619F5AB3000743988 /* Animations.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Animations.storyboard; sourceTree = "<group>"; };
+		C751843919F5AD2F00743988 /* AnimationCurveExamples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationCurveExamples.h; sourceTree = "<group>"; };
+		C751843A19F5AD2F00743988 /* AnimationCurveExamples.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationCurveExamples.m; sourceTree = "<group>"; };
+		C75AB0C719F9A16400D78615 /* Transitions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transitions.storyboard; sourceTree = "<group>"; };
+		C75AB0C919F9A2E200D78615 /* ModalTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalTransitionViewController.h; sourceTree = "<group>"; };
+		C75AB0CA19F9A2E200D78615 /* ModalTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalTransitionViewController.m; sourceTree = "<group>"; };
+		C75AB0CC19F9A49100D78615 /* VBFTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFTransitionAnimator.h; sourceTree = "<group>"; };
+		C75AB0CD19F9A49100D78615 /* VBFTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFTransitionAnimator.m; sourceTree = "<group>"; };
+		C75AB0CF19F9A6E500D78615 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		C75AB0D019F9A6E500D78615 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		C76785D519F7048B00B5E035 /* AnimatablePropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimatablePropViewController.h; sourceTree = "<group>"; };
+		C76785D619F7048B00B5E035 /* AnimatablePropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimatablePropViewController.m; sourceTree = "<group>"; };
+		C782D7371A8F89480047C4AA /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = SOURCE_ROOT; };
+		C782D7381A8F89480047C4AA /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = SOURCE_ROOT; };
+		C782D73B1A9107C40047C4AA /* ScollHeaderALViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScollHeaderALViewController.h; sourceTree = "<group>"; };
+		C782D73C1A9107C40047C4AA /* ScollHeaderALViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScollHeaderALViewController.m; sourceTree = "<group>"; };
 		C79C85E119F41BCE0086D14B /* HexagonsBCNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonsBCNViewController.h; sourceTree = "<group>"; };
 		C79C85E219F41BCE0086D14B /* HexagonsBCNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonsBCNViewController.m; sourceTree = "<group>"; };
 		C79C85E519F41BEF0086D14B /* RoundedHexagonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedHexagonImage.h; sourceTree = "<group>"; };
@@ -136,12 +195,30 @@
 		C7B6CDE7194C3A720084968B /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 		C7B6CDE8194C3A720084968B /* GenericViewManagementVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericViewManagementVC.h; sourceTree = "<group>"; };
 		C7B6CDE9194C3A720084968B /* GenericViewManagementVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericViewManagementVC.m; sourceTree = "<group>"; };
+		C7BA1D7A19F9ADC80030731B /* VBFInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFInteractiveTransition.h; sourceTree = "<group>"; };
+		C7BA1D7B19F9ADC80030731B /* VBFInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFInteractiveTransition.m; sourceTree = "<group>"; };
+		C7BA1D7D19F9AF150030731B /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		C7BA1D7E19F9AF150030731B /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		C7BA1D8019F9B3150030731B /* InteractiveTransViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransViewController.h; sourceTree = "<group>"; };
+		C7BA1D8119F9B3150030731B /* InteractiveTransViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransViewController.m; sourceTree = "<group>"; };
+		C7BA1D8319F9B7D20030731B /* TransitionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionsTableViewController.h; sourceTree = "<group>"; };
+		C7BA1D8419F9B7D20030731B /* TransitionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionsTableViewController.m; sourceTree = "<group>"; };
+		C7BA1D8619F9BB400030731B /* VBFNavigationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFNavigationTransition.h; sourceTree = "<group>"; };
+		C7BA1D8719F9BB400030731B /* VBFNavigationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFNavigationTransition.m; sourceTree = "<group>"; };
 		C7BFA42E19507CA000197851 /* bFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bFace.h; sourceTree = "<group>"; };
 		C7BFA42F19507CA000197851 /* bFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bFace.m; sourceTree = "<group>"; };
 		C7C38865194D926500B32603 /* HexagonsDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonsDrawingView.h; sourceTree = "<group>"; };
 		C7C38866194D926500B32603 /* HexagonsDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonsDrawingView.m; sourceTree = "<group>"; };
 		C7C38868194D9C1300B32603 /* HexagonButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HexagonButton.h; sourceTree = "<group>"; };
 		C7C38869194D9C1300B32603 /* HexagonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HexagonButton.m; sourceTree = "<group>"; };
+		C7CCD7DC1A8C922900D5D62C /* VBFCountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFCountDown.h; sourceTree = "<group>"; };
+		C7CCD7DD1A8C922900D5D62C /* VBFCountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFCountDown.m; sourceTree = "<group>"; };
+		C7CCD7E01A8C92B300D5D62C /* PopExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopExamplesViewController.h; sourceTree = "<group>"; };
+		C7CCD7E11A8C92B300D5D62C /* PopExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopExamplesViewController.m; sourceTree = "<group>"; };
+		C7CCD7E61A8C97B600D5D62C /* VBFPopUpMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFPopUpMenu.h; sourceTree = "<group>"; };
+		C7CCD7E71A8C97B600D5D62C /* VBFPopUpMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFPopUpMenu.m; sourceTree = "<group>"; };
+		C7CCD7E91A8C97C100D5D62C /* VBFDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VBFDownloadButton.h; sourceTree = "<group>"; };
+		C7CCD7EA1A8C97C100D5D62C /* VBFDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VBFDownloadButton.m; sourceTree = "<group>"; };
 		F0F325CB6B05DBF3C03A5895 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -151,9 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B6CD64194C32830084968B /* CoreGraphics.framework in Frameworks */,
+				C782D7391A8F89480047C4AA /* Crashlytics.framework in Frameworks */,
 				C7B6CD66194C32830084968B /* UIKit.framework in Frameworks */,
 				C7B6CD62194C32830084968B /* Foundation.framework in Frameworks */,
 				7EE7A04C91CB4B4A97878183 /* libPods.a in Frameworks */,
+				C782D73A1A8F89480047C4AA /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +273,68 @@
 			path = Layers;
 			sourceTree = "<group>";
 		};
-		C79C85E419F41BDB0086D14B /* Barcelona initial screen */ = {
+		C751843819F5AB3E00743988 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C712FB7C19F86FF000922135 /* VBFJumpingBalls.h */,
+				C712FB7D19F86FF000922135 /* VBFJumpingBalls.m */,
+				C712FB8519F8733100922135 /* VBFRotatingSquare.h */,
+				C712FB8619F8733100922135 /* VBFRotatingSquare.m */,
+				C751843619F5AB3000743988 /* Animations.storyboard */,
+				C712FB8819F8747300922135 /* MultipleExampleAnimationsViewController.h */,
+				C712FB8919F8747300922135 /* MultipleExampleAnimationsViewController.m */,
+				C712FB8219F8709800922135 /* MainAnimationsTableViewController.h */,
+				C712FB8319F8709800922135 /* MainAnimationsTableViewController.m */,
+				C751843919F5AD2F00743988 /* AnimationCurveExamples.h */,
+				C751843A19F5AD2F00743988 /* AnimationCurveExamples.m */,
+				C76785D519F7048B00B5E035 /* AnimatablePropViewController.h */,
+				C76785D619F7048B00B5E035 /* AnimatablePropViewController.m */,
+				C712FB7919F84F2A00922135 /* ModifyCurvesViewController.h */,
+				C712FB7A19F84F2A00922135 /* ModifyCurvesViewController.m */,
+				C712FB7619F82B8500922135 /* AnimationCurveView.h */,
+				C712FB7719F82B8500922135 /* AnimationCurveView.m */,
+				C712FB7F19F8706B00922135 /* LoadersViewController.h */,
+				C712FB8019F8706B00922135 /* LoadersViewController.m */,
+				C712FB8B19F8789900922135 /* TransitionViewsViewController.h */,
+				C712FB8C19F8789900922135 /* TransitionViewsViewController.m */,
+				C7CCD7DF1A8C92A000D5D62C /* Pop examples */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+		C75AB0D219F9A6EC00D78615 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				C75AB0C719F9A16400D78615 /* Transitions.storyboard */,
+				C7BA1D8319F9B7D20030731B /* TransitionsTableViewController.h */,
+				C7BA1D8419F9B7D20030731B /* TransitionsTableViewController.m */,
+				C75AB0C919F9A2E200D78615 /* ModalTransitionViewController.h */,
+				C75AB0CA19F9A2E200D78615 /* ModalTransitionViewController.m */,
+				C75AB0CF19F9A6E500D78615 /* DetailViewController.h */,
+				C75AB0D019F9A6E500D78615 /* DetailViewController.m */,
+				C7BA1D7D19F9AF150030731B /* SideMenuViewController.h */,
+				C7BA1D7E19F9AF150030731B /* SideMenuViewController.m */,
+				C7BA1D8019F9B3150030731B /* InteractiveTransViewController.h */,
+				C7BA1D8119F9B3150030731B /* InteractiveTransViewController.m */,
+				C75AB0D319F9A6FF00D78615 /* Presentation objects */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		C75AB0D319F9A6FF00D78615 /* Presentation objects */ = {
+			isa = PBXGroup;
+			children = (
+				C75AB0CC19F9A49100D78615 /* VBFTransitionAnimator.h */,
+				C75AB0CD19F9A49100D78615 /* VBFTransitionAnimator.m */,
+				C7BA1D7A19F9ADC80030731B /* VBFInteractiveTransition.h */,
+				C7BA1D7B19F9ADC80030731B /* VBFInteractiveTransition.m */,
+				C7BA1D8619F9BB400030731B /* VBFNavigationTransition.h */,
+				C7BA1D8719F9BB400030731B /* VBFNavigationTransition.m */,
+			);
+			name = "Presentation objects";
+			sourceTree = "<group>";
+		};
+		C79C85E419F41BDB0086D14B /* Barcelona '14 initial screen */ = {
 			isa = PBXGroup;
 			children = (
 				C79C85E119F41BCE0086D14B /* HexagonsBCNViewController.h */,
@@ -202,7 +342,7 @@
 				C79C85E519F41BEF0086D14B /* RoundedHexagonImage.h */,
 				C79C85E619F41BEF0086D14B /* RoundedHexagonImage.m */,
 			);
-			name = "Barcelona initial screen";
+			name = "Barcelona '14 initial screen";
 			sourceTree = "<group>";
 		};
 		C7B6CD55194C32830084968B = {
@@ -244,8 +384,10 @@
 				C7B6CD71194C32830084968B /* AppDelegate.m */,
 				C7B6CD73194C32830084968B /* Main.storyboard */,
 				C79C85E819F41C790086D14B /* Launch Screen.xib */,
-				C79C85E419F41BDB0086D14B /* Barcelona initial screen */,
-				C7E3739B19F41AD700657515 /* Madrid initial screen */,
+				C75AB0D219F9A6EC00D78615 /* Transitions */,
+				C79C85E419F41BDB0086D14B /* Barcelona '14 initial screen */,
+				C7E3739B19F41AD700657515 /* Madrid '14 initial screen */,
+				C751843819F5AB3E00743988 /* Animations */,
 				C7B6CDDE194C3A720084968B /* View management */,
 				C7B6CDC0194C353B0084968B /* Drawing */,
 				C731A57D194C66ED00DCD6F3 /* Layers */,
@@ -258,6 +400,8 @@
 		C7B6CD68194C32830084968B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C782D7371A8F89480047C4AA /* Crashlytics.framework */,
+				C782D7381A8F89480047C4AA /* Fabric.framework */,
 				C7B6CD69194C32830084968B /* Week3-Info.plist */,
 				C7B6CD6A194C32830084968B /* InfoPlist.strings */,
 				C7B6CD6D194C32830084968B /* main.m */,
@@ -313,17 +457,19 @@
 		C7B6CDDE194C3A720084968B /* View management */ = {
 			isa = PBXGroup;
 			children = (
+				C7B6CDE3194C3A720084968B /* ViewManagement.storyboard */,
 				C7B6CDDF194C3A720084968B /* DragView.h */,
 				C7B6CDE0194C3A720084968B /* DragView.m */,
 				C7B6CDE1194C3A720084968B /* MainViewManagementTableVC.h */,
 				C7B6CDE2194C3A720084968B /* MainViewManagementTableVC.m */,
-				C7B6CDE3194C3A720084968B /* ViewManagement.storyboard */,
 				C7B6CDE4194C3A720084968B /* MultipleTouchView.h */,
 				C7B6CDE5194C3A720084968B /* MultipleTouchView.m */,
 				C7B6CDE6194C3A720084968B /* MyButton.h */,
 				C7B6CDE7194C3A720084968B /* MyButton.m */,
 				C7B6CDE8194C3A720084968B /* GenericViewManagementVC.h */,
 				C7B6CDE9194C3A720084968B /* GenericViewManagementVC.m */,
+				C782D73B1A9107C40047C4AA /* ScollHeaderALViewController.h */,
+				C782D73C1A9107C40047C4AA /* ScollHeaderALViewController.m */,
 			);
 			path = "View management";
 			sourceTree = "<group>";
@@ -345,7 +491,22 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
-		C7E3739B19F41AD700657515 /* Madrid initial screen */ = {
+		C7CCD7DF1A8C92A000D5D62C /* Pop examples */ = {
+			isa = PBXGroup;
+			children = (
+				C7CCD7E01A8C92B300D5D62C /* PopExamplesViewController.h */,
+				C7CCD7E11A8C92B300D5D62C /* PopExamplesViewController.m */,
+				C7CCD7DC1A8C922900D5D62C /* VBFCountDown.h */,
+				C7CCD7DD1A8C922900D5D62C /* VBFCountDown.m */,
+				C7CCD7E61A8C97B600D5D62C /* VBFPopUpMenu.h */,
+				C7CCD7E71A8C97B600D5D62C /* VBFPopUpMenu.m */,
+				C7CCD7E91A8C97C100D5D62C /* VBFDownloadButton.h */,
+				C7CCD7EA1A8C97C100D5D62C /* VBFDownloadButton.m */,
+			);
+			name = "Pop examples";
+			sourceTree = "<group>";
+		};
+		C7E3739B19F41AD700657515 /* Madrid '14 initial screen */ = {
 			isa = PBXGroup;
 			children = (
 				C7B6CD76194C32830084968B /* ViewController.h */,
@@ -355,7 +516,7 @@
 				C7C38868194D9C1300B32603 /* HexagonButton.h */,
 				C7C38869194D9C1300B32603 /* HexagonButton.m */,
 			);
-			name = "Madrid initial screen";
+			name = "Madrid '14 initial screen";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -370,6 +531,7 @@
 				C7B6CD5B194C32830084968B /* Frameworks */,
 				C7B6CD5C194C32830084968B /* Resources */,
 				516F2AE84DC94295BBF392CA /* Copy Pods Resources */,
+				C782D7361A8F88840047C4AA /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -407,6 +569,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Victor Baro";
 				TargetAttributes = {
+					C7B6CD5D194C32830084968B = {
+						DevelopmentTeam = 95RGF8977R;
+					};
 					C7B6CD7E194C32830084968B = {
 						TestTargetID = C7B6CD5D194C32830084968B;
 					};
@@ -439,10 +604,12 @@
 				C731A594194C66ED00DCD6F3 /* Layers.storyboard in Resources */,
 				C7B6CD7A194C32830084968B /* Images.xcassets in Resources */,
 				C7B6CDEC194C3A720084968B /* ViewManagement.storyboard in Resources */,
+				C75AB0C819F9A16400D78615 /* Transitions.storyboard in Resources */,
 				C7B6CDDC194C36210084968B /* Drawing.storyboard in Resources */,
 				C7B6CD6C194C32830084968B /* InfoPlist.strings in Resources */,
 				C79C85E919F41C790086D14B /* Launch Screen.xib in Resources */,
 				C7B6CD75194C32830084968B /* Main.storyboard in Resources */,
+				C751843719F5AB3000743988 /* Animations.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +654,19 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		C782D7361A8F88840047C4AA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 35e88112feb8ee6b0b620c34809265bb1c6d8b64 907f567389974900139ba418dce3c46329c50ab714bf4f78d19cbb10d61293fb";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -494,35 +674,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C712FB8D19F8789900922135 /* TransitionViewsViewController.m in Sources */,
+				C75AB0CB19F9A2E200D78615 /* ModalTransitionViewController.m in Sources */,
+				C76785D719F7048B00B5E035 /* AnimatablePropViewController.m in Sources */,
 				C7B6CD78194C32830084968B /* ViewController.m in Sources */,
 				C7B6CD72194C32830084968B /* AppDelegate.m in Sources */,
 				C731A596194C66ED00DCD6F3 /* SignalView.m in Sources */,
 				C731A595194C66ED00DCD6F3 /* MainLayersTableVC.m in Sources */,
 				C7B6CDEA194C3A720084968B /* DragView.m in Sources */,
+				C7CCD7E81A8C97B600D5D62C /* VBFPopUpMenu.m in Sources */,
+				C7BA1D8519F9B7D20030731B /* TransitionsTableViewController.m in Sources */,
 				C7B6CDD8194C353B0084968B /* VignetteFilter.m in Sources */,
 				C731A590194C66ED00DCD6F3 /* CAScrollLayerExampleVC.m in Sources */,
+				C751843B19F5AD2F00743988 /* AnimationCurveExamples.m in Sources */,
 				C7B6CD6E194C32830084968B /* main.m in Sources */,
+				C7CCD7E21A8C92B300D5D62C /* PopExamplesViewController.m in Sources */,
 				C731A591194C66ED00DCD6F3 /* CATransformLayerExample.m in Sources */,
 				C7B6CDD2194C353B0084968B /* BlurExampleVC.m in Sources */,
 				C7B6CDD1194C353B0084968B /* BezierFace.m in Sources */,
+				C7BA1D8219F9B3150030731B /* InteractiveTransViewController.m in Sources */,
+				C7CCD7DE1A8C922900D5D62C /* VBFCountDown.m in Sources */,
+				C75AB0CE19F9A49100D78615 /* VBFTransitionAnimator.m in Sources */,
+				C712FB8119F8706B00922135 /* LoadersViewController.m in Sources */,
 				C7B6CDD3194C353B0084968B /* CoreGraphicsExamplesVC.m in Sources */,
 				C7B6CDD7194C353B0084968B /* UIImage+ImageEffects.m in Sources */,
+				C712FB7B19F84F2A00922135 /* ModifyCurvesViewController.m in Sources */,
+				C712FB7819F82B8500922135 /* AnimationCurveView.m in Sources */,
 				C7B6CDEE194C3A720084968B /* MyButton.m in Sources */,
 				C7BFA43019507CA000197851 /* bFace.m in Sources */,
 				C731A593194C66ED00DCD6F3 /* ClockView.m in Sources */,
+				C712FB8419F8709800922135 /* MainAnimationsTableViewController.m in Sources */,
+				C7BA1D7C19F9ADC80030731B /* VBFInteractiveTransition.m in Sources */,
+				C712FB8719F8733100922135 /* VBFRotatingSquare.m in Sources */,
 				C731A58F194C66ED00DCD6F3 /* Arrow.m in Sources */,
 				C7B6CDEF194C3A720084968B /* GenericViewManagementVC.m in Sources */,
 				C79C85E719F41BEF0086D14B /* RoundedHexagonImage.m in Sources */,
 				C7B6CDD6194C353B0084968B /* MainDrawingTableVC.m in Sources */,
 				C731A597194C66ED00DCD6F3 /* GenericLayersVC.m in Sources */,
+				C7BA1D7F19F9AF150030731B /* SideMenuViewController.m in Sources */,
+				C712FB8A19F8747300922135 /* MultipleExampleAnimationsViewController.m in Sources */,
 				C7B6CDD4194C353B0084968B /* FiltersVC.m in Sources */,
 				C7C3886A194D9C1300B32603 /* HexagonButton.m in Sources */,
 				C7C38867194D926500B32603 /* HexagonsDrawingView.m in Sources */,
+				C7CCD7EB1A8C97C100D5D62C /* VBFDownloadButton.m in Sources */,
 				C731A592194C66ED00DCD6F3 /* ClockLayer.m in Sources */,
 				C7B6CDD5194C353B0084968B /* GenericDrawingVC.m in Sources */,
 				C79C85E319F41BCE0086D14B /* HexagonsBCNViewController.m in Sources */,
+				C782D73D1A9107C40047C4AA /* ScollHeaderALViewController.m in Sources */,
+				C7BA1D8819F9BB400030731B /* VBFNavigationTransition.m in Sources */,
 				C7B6CDED194C3A720084968B /* MultipleTouchView.m in Sources */,
+				C712FB7E19F86FF000922135 /* VBFJumpingBalls.m in Sources */,
 				C7B6CDEB194C3A720084968B /* MainViewManagementTableVC.m in Sources */,
+				C75AB0D119F9A6E500D78615 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,7 +807,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -636,7 +839,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -648,10 +851,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week3/Week3-Prefix.pch";
 				INFOPLIST_FILE = "Week3/Week3-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -662,10 +872,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Week3/Week3-Prefix.pch";
 				INFOPLIST_FILE = "Week3/Week3-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

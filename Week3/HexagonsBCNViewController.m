@@ -76,13 +76,12 @@
             vcIdentifier = @"LayersNav";
             break;
         case 8:
-            
-            return;
+            storyboardName = @"Animations";
+            vcIdentifier = @"AnimationsNav";
             break;
         case 10:
-            
-            
-            return;
+            storyboardName = @"Transitions";
+            vcIdentifier = @"TransitionsNav";
             break;
         case 11:
             [self showMessage];
@@ -102,7 +101,7 @@
 
 - (IBAction)showMessage {
     UIAlertView *message = [[UIAlertView alloc] initWithTitle:@"Ironhack Week 3"
-                                                      message:@"This project has been created to show all examples seen at Ironhack Barcelona, 3rd week"
+                                                      message:@"This project has been created to show all examples seen at Ironhack Bootcamp, 3rd week"
                                                      delegate:nil
                                             cancelButtonTitle:@"OK"
                                             otherButtonTitles:nil];

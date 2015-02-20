@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
+IB_DESIGNABLE
 @interface MyButton : UIView
 
-@property (nonatomic, weak) NSString *title;
-@property (nonatomic, weak) UIColor *fillColor;
+@property (nonatomic, weak) IBInspectable NSString *buttonTitle;
+@property (nonatomic, weak) IBInspectable UIColor *fillColor;
 
 //DESIGNATED INITIALIZER
 - (id) initWithFrame:(CGRect)frame

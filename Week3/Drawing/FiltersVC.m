@@ -67,7 +67,7 @@
 
 - (CIImage *) addVignetteEffect {
     CIFilter* vig = [VignetteFilter new];
-    CIImage* im = [CIImage imageWithCGImage:[self imageFromAssets].CGImage];
+    CIImage* im = [CIImage imageWithCGImage:[UIImage imageNamed:@"programmer"].CGImage];
     
     //CIFilter values have to be set using Key-Value pairs
     [vig setValue:im forKey:@"inputImage"];
@@ -77,9 +77,10 @@
 }
 
 - (CIImage *)addSimpleEffect {
-    CIImage* im = [CIImage imageWithCGImage:[self imageFromAssets].CGImage];
+    CIImage* im = [CIImage imageWithCGImage:[UIImage imageNamed:@"programmer"].CGImage];
     CIFilter *color = [CIFilter filterWithName:@"CIDotScreen"
-                                 keysAndValues:kCIInputImageKey, im, nil];
+                                 keysAndValues:kCIInputImageKey, im,
+                                            kCIInputAngleKey,@(-2.0) , nil];
     
     return color.outputImage;
 }

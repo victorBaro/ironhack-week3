@@ -21,6 +21,7 @@
 
 - (id)initWithFrame:(CGRect)frame
 {
+    
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
@@ -61,8 +62,7 @@
 // An empty implementation adversely affects performance during animation.
 - (void)drawRect:(CGRect)rect
 {
-    // Drawing code
-    CGRect fullRect = self.frame;
+
 
     
     // Establish a new path
@@ -74,7 +74,7 @@
     */
     
     // Create the face outline and append it to the path
-    CGRect inset = CGRectInset(fullRect, 40, 160);
+    CGRect inset = CGRectInset(rect, 40, 160);
     UIBezierPath *faceOutline = [UIBezierPath bezierPathWithOvalInRect:inset];
     [bezierPath appendPath:faceOutline];
     

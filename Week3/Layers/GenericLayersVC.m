@@ -38,6 +38,9 @@
         case 5:
             [self CATransformLayer];
             break;
+        case 6:
+            [self emmitterLayerExample];
+            break;
         default:
             break;
     }
@@ -198,7 +201,50 @@
     [self.view addSubview:trans];
 }
 
+#pragma mark -  Emitter layer
 
+- (void)emmitterLayerExample {
+    CAEmitterLayer *emitterLayer = [self createEmitterLayer];
+    emitterLayer.position = self.view.center;
+    emitterLayer.emitterCells = @[[self createEmitterCell]];
+    [self.view.layer addSublayer:emitterLayer];
+}
 
+- (CAEmitterLayer *)createEmitterLayer {
+    CAEmitterLayer *emitterLayer = [CAEmitterLayer layer];
+    emitterLayer.frame = CGRectMake(0, 0, 300, 300);
+    emitterLayer.renderMode = kCAEmitterLayerAdditive;
+    emitterLayer.drawsAsynchronously = true;
+    emitterLayer.emitterPosition = CGPointMake(CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds));
+    return emitterLayer;
+}
 
+- (CAEmitterCell *)createEmitterCell {
+    CAEmitterCell *emitterCell = [CAEmitterCell emitterCell];
+    emitterCell.contents = [UIImage imageNamed:@"star"].CIImage;
+    
+    emitterCell.velocity = 50.0;
+    emitterCell.velocityRange = 500.0;
+    
+    emitterCell.color = [UIColor blackColor].CGColor;
+    emitterCell.redRange = 1.0;
+    emitterCell.greenRange = 1.0;
+    emitterCell.blueRange = 1.0;
+    emitterCell.alphaRange = 0.0;
+    emitterCell.redSpeed = 0.0;
+    emitterCell.greenSpeed = 0.0;
+    emitterCell.blueSpeed = 0.0;
+    emitterCell.alphaSpeed = -0.5;
+    
+
+    emitterCell.spin = M_PI * 0.8;
+    emitterCell.spinRange = 0.0;
+    emitterCell.emissionRange = 2*M_PI;
+    
+    emitterCell.lifetime = 1.0;
+    emitterCell.birthRate = 250.0;
+    emitterCell.xAcceleration = -800.0;
+    emitterCell.yAcceleration = 1000.0;
+    return emitterCell;
+}
 @end

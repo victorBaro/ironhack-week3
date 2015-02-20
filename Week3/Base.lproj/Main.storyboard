@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="q6n-sf-eDP">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="q6n-sf-eDP">
     <dependencies>
-        <deployment defaultVersion="1808" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -90,20 +89,20 @@
                         <viewControllerLayoutGuide type="bottom" id="cS0-RO-AZp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="mgs-0T-Api">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWT-5L-58w">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="SJ4-4K-2JB">
-                                        <rect key="frame" x="112" y="231" width="96" height="106"/>
+                                        <rect key="frame" x="112" y="187" width="96" height="106"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="SJ4-4K-2JB" secondAttribute="height" multiplier="48:53" id="yrL-9h-sCH"/>
                                         </constraints>
                                     </imageView>
                                     <view tag="8" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZMA-Eh-FeT" customClass="RoundedHexagonImage">
-                                        <rect key="frame" x="216" y="231" width="96" height="106"/>
+                                        <rect key="frame" x="216" y="187" width="96" height="106"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrA-dv-TCw">
                                                 <rect key="frame" x="16" y="42" width="64" height="21"/>
@@ -124,7 +123,7 @@
                                         </connections>
                                     </view>
                                     <view tag="7" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sQ-W1-N49" customClass="RoundedHexagonImage">
-                                        <rect key="frame" x="8" y="231" width="96" height="106"/>
+                                        <rect key="frame" x="8" y="187" width="96" height="106"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day 3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nT0-PY-4SK">
                                                 <rect key="frame" x="16" y="42" width="64" height="21"/>
@@ -145,7 +144,7 @@
                                         </connections>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XxP-2c-4TW">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="106"/>
+                                        <rect key="frame" x="0.0" y="96" width="320" height="106"/>
                                         <subviews>
                                             <view tag="3" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dGp-yc-gUS" customClass="RoundedHexagonImage">
                                                 <rect key="frame" x="-48" y="0.0" width="96" height="106"/>
@@ -218,7 +217,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="24O-0X-scS">
-                                        <rect key="frame" x="0.0" y="49" width="320" height="106"/>
+                                        <rect key="frame" x="0.0" y="5" width="320" height="106"/>
                                         <subviews>
                                             <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gis-po-GAd" customClass="RoundedHexagonImage">
                                                 <rect key="frame" x="112" y="0.0" width="96" height="106"/>
@@ -250,7 +249,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mUs-1k-hPm">
-                                        <rect key="frame" x="0.0" y="322" width="320" height="106"/>
+                                        <rect key="frame" x="0.0" y="278" width="320" height="106"/>
                                         <subviews>
                                             <view tag="9" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RXa-qA-Sun" customClass="RoundedHexagonImage">
                                                 <rect key="frame" x="-48" y="0.0" width="96" height="106"/>
@@ -277,8 +276,8 @@
                                                     <outlet property="myTitle" destination="MEW-5J-Yzc" id="cKB-sK-KWa"/>
                                                 </connections>
                                             </view>
-                                            <view tag="11" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BR7-qs-NCD" customClass="RoundedHexagonImage">
-                                                <rect key="frame" x="160" y="0.0" width="96" height="106"/>
+                                            <view tag="11" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BR7-qs-NCD" customClass="RoundedHexagonImage">
+                                                <rect key="frame" x="159" y="0.0" width="96" height="106"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f81-tb-2bq">
                                                         <rect key="frame" x="16" y="42" width="64" height="21"/>
@@ -324,7 +323,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qmz-Zm-Jhp">
-                                        <rect key="frame" x="0.0" y="413" width="320" height="106"/>
+                                        <rect key="frame" x="0.0" y="369" width="320" height="106"/>
                                         <subviews>
                                             <view tag="14" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Op-40-LnM" customClass="RoundedHexagonImage">
                                                 <rect key="frame" x="112" y="0.0" width="96" height="106"/>
@@ -397,7 +396,6 @@
                             <constraint firstAttribute="trailingMargin" secondItem="bWT-5L-58w" secondAttribute="trailing" constant="-16" id="i4f-Tq-qc4"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="bottomEdgeConstraint" destination="hqZ-Tg-F6i" id="Dg2-hl-aZL"/>
                         <outlet property="leadingEdgeConstraint" destination="SA4-k0-BBC" id="XUU-Gf-wuv"/>
@@ -424,7 +422,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZxO-Lz-28K" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-61" y="761"/>
+            <point key="canvasLocation" x="-81" y="763"/>
         </scene>
     </scenes>
     <resources>
